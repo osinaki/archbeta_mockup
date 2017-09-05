@@ -1,0 +1,11 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+  background: rgb(218, 222, 161);
+}
+
+.highlight-text {
+  font-weight: bold;
+}
