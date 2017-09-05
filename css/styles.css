@@ -9,3 +9,71 @@ body {
 .highlight-text {
   font-weight: bold;
 }
+
+.highlightbox {
+    padding: 12px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.color1 {
+    background-color: #546089;
+}
+
+.color1light {
+    background-color: rgba(84, 96, 137, 0.5);
+}
+
+.color2 {
+    background-color: #dadea1;
+}
+
+.color2light {
+    background-color: rgba(218, 222, 161, 0.5);
+}
+
+.color3 {
+    background-color: #7c7946;
+}
+
+.color3light {
+    background-color: rgba(124, 121, 70, 0.5);
+}
+
+.centertext {
+    text-align: center;
+}
+
+.lefttext {
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.checklist ul {
+    list-style: none;
+    padding: 0;
+}
+
+.checklist li:before {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0 10px;
+    content: "\e080";
+}
+
+.imgbox img {
+    width: 100%;
+}
